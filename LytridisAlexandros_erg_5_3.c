@@ -4,9 +4,9 @@
 int main(){
     int xoritikotita , epitirites , synEpitirites , synXoritikotita , synAithouses = 0;
 
-    printf("Dose xoritikotita aithousas: ");
-    scanf("%d" , &xoritikotita);
     do {
+        printf("Dose xoritikotita aithousas: ");
+        scanf("%d" , &xoritikotita);
         
         if (xoritikotita <= 15){
             epitirites = 1;
@@ -23,9 +23,6 @@ int main(){
         synAithouses++;
         synEpitirites += epitirites;
         synXoritikotita += xoritikotita;
-
-        printf("Dose xoritikotita aithousas: ");
-        scanf("%d" , &xoritikotita);
 
     } while (synXoritikotita < 100);
 
