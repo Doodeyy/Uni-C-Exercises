@@ -10,11 +10,11 @@ int main() {
     while (n < 5 || n > 20) {
         printf("Invalid input. Please give an integer in [5,20]: ");
         scanf("%d", &n);
-    }
+        }
 
     for (int i = 1; i <= 2 * n - 1; i += 2){
         sum+=i;
-    }
+        }
     
     int square = n*n;
 
