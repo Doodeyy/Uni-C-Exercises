@@ -1,8 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int findAthroismaPeritton(int i ,int n){
+    int sum = 0;
+    for (i = 1; i<= 2 * n - 1; i += 2){
+    sum+=i;  
+    }
+    
+    return sum;
+}
+
 int main() {
-    int n , sum = 0;
+    
+    int n , i , sum = 0;
 
     printf("Give an integer in [5,20]: ");
     scanf("%d", &n);
@@ -12,14 +22,11 @@ int main() {
         scanf("%d", &n);
         }
 
-    for (int i = 1; i <= 2 * n - 1; i += 2){
-        sum+=i;
-        }
-    
     int square = n*n;
 
-    printf("1+3+5+...+(2*%d-1) = %d = %d^2 = %d\n" , n , sum , n , square);
+    printf("1+3+5+...+(2*%d-1) = %d = %d^2 = %d\n" , n , findAthroismaPeritton(i , n) , n , square);
 
     system("pause");
+    
     return 0;
 }
