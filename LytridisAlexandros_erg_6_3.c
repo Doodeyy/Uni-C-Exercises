@@ -18,7 +18,7 @@ int main() {
     
     int square = n*n;
 
-    printf("1+3+5+...+(2^%d-1) = %d = %d^2 = %d\n" , n , sum , n , square);
+    printf("1+3+5+...+(2*%d-1) = %d = %d^2 = %d\n" , n , sum , n , square);
 
     system("pause");
     return 0;
