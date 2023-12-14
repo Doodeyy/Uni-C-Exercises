@@ -24,7 +24,6 @@ void showPin2D(int my2DArray[][nmax] , int n){
 }
 
 void findMeanLine(int my2DArray[][nmax] , int n , int avgLine[]) {
-    int avgLine[n];
     int i , j;
     int sum = 0;
     int mo = 0;
