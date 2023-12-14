@@ -1,15 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
-MATHIMA : DOMHMENOS PROGRAMMATISMOS
-TMHMA : т11
-ERGASTHRIAKH ASKHSH : 8
-HMEROMHNIA : 7/12/2023
-ONOMA : кутяидгс акенамдяос
-ARITHMOS MHTRWOY : 2023195
-*/
-
 void fillPin(int pin[] , int n) {
     int i;
     for (i = 0; i < n; i++) {
