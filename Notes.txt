@@ -92,3 +92,18 @@ for (plithos = n-1;plithos >= 1;plithos--)
     printf("bhma = %d p = ", n-plithos);
     showPin( n, p);
 }
+
+#include <stdbool.h>
+ 
+// Main Function
+int main()
+{
+      // Boolean data types declared
+    bool a = true;
+    bool b = false;
+ 
+    printf("True : %d\n", a);
+    printf("False : %d", b);
+ 
+    return 0;
+}
